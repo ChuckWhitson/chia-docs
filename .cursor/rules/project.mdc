@@ -1,0 +1,20 @@
+---
+description: "Machine-move brief for chia-docs"
+alwaysApply: true
+---
+
+# chia-docs
+
+- Local path: `C:\SOURCE\chia-docs`. On a new machine, keep this folder name under `C:\SOURCE`.
+- Git: main @ 77b3ed1c8. Remote: https://github.com/ChuckWhitson/chia-docs.git.
+- Stack: Node.
+- What it is: This is the website for Chia Docs, the source of truth for Chia documentation.
+- Documented from the local tree on 2026-10-11.
+
+## Work in this tree
+
+- Layout: .github/, docs/, i18n/, k8s/, src/, static/, .gitignore, .prettierrc, babel.config.js, CNAME
+- Build or run: `$ npm run build`
+- Do not commit secrets, live firewall or cloud configs, API keys, or private keys. Root name check: None matched at the folder root. Still do not add keys, live configs, or password files.
+- Change only what the task needs. Match the style already in the file you edit.
+- This file is the Cursor brief for rebuilding the developer machine. Prefer README.md when the two disagree.
